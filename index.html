@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="A personal portfolio website"/>
+    <meta name="keywords" content="front,end,portfolio,jonalbert,encina,jonalbert encina"/>
+    <meta name="robots" content="index/follow"/>
+    <meta name="author" content="Jonalbert Encina"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="front.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="front.css"/>
+    
+    <title>Front End Developer Portfolio </title>
+
+  </head>
+  <body>
+  
+    <!--Create a Boostrap container-fluid that fills a
+        full width. 
+        Note: This is in Bootstrap 4 version.
+    -->
+    <div class="container-fluid nb text-center" id="nv">
+       <!--Create a navigation bar-->
+      <div class="navbar navbar-inverse bg-primary">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#am" >
+              <h3> About Me</h3>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#prt">
+              <h3>Portfolio</h3>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#ct">
+              <h3>Connect</h3>
+            </a>
+          </li>
+        </ul> <!-- end of unordered list-->
+      </div> <!--end of navbar-->    
+    </div> <!--end of container-fluid-->
+
+    <!--Create a Bootstrap container-->
+    <div class="container bam">
+      <div class="about text-center" id="am">
+        <!--Create a row container-->
+        <div class="section group"> 
+          <div class="col span_6_of_12">  
+            <h3> <u>Jonalbert Encina</u>
+            </h3>
+            <h4 class="text-left b1"> I am a self-taught front-end web developer that knows HTML5, CSS3, and Javascript. I also play video games and draw artistic illustrations as my hobbies. 
+            </h4>
+          </div> <!--end of col-->  
+          
+          <div class="col span_6_of_12 text-center">
+            <img src="https://s25.postimg.org/khy5z3qr3/Jonalbert_pic_profile.png" class="img-fluid p"/>         
+          </div> <!--end of col-->      
+        </div> <!--end of section group-->
+      </div> <!--end of #am-->
+    </div>
+    <div class="container b">
+      <div class="text-center" id="prt">
+        <h2 class="fdp">
+          <u>Front-End Developer Portfolio
+          </u> 
+        </h2>
+        <div class="section group">
+          <div class="col span_12_of_12">     
+            <a href="https://codebrave.github.io/Tribute_Page/" target="_blank">  
+              <img src="https://s25.postimg.org/ht9ufuiwf/tribute_page.png" class="img-fluid prt"/>
+            </a>
+          
+            <a href="https://codebrave.github.io/Wikipedia_Search/" target="_blank">
+              <img src="https://s25.postimg.org/dzge6p1kf/wiki_search.png" class="img-fluid prt"/>  
+            </a>
+
+            <a href="https://codebrave.github.io/Twitch_Users/" target="_blank">
+              <img src="https://s25.postimg.org/jz45acmcv/twitch_users.png" class="img-fluid prt"/>  
+            </a>
+
+            <a href="https://codebrave.github.io/Tic_Tac_Toe/" target="_blank">
+              <img src="https://s25.postimg.org/pfmt4qfqn/Tic_tac_toe.png" class="img-fluid prt"/>
+            </a>
+          </div> <!--end of col-->  
+        </div> <!--end of section group-->
+        <div class="section group">
+          <div class="col span_12_of_12">  
+            <a href="https://codebrave.github.io/Local_Weather/" target="_blank">
+              <img src="https://s25.postimg.org/lltcvkyen/local_weather.png" class="img-fluid prt"/>  
+            </a>
+            <a href="https://codebrave.github.io/Pomodoro_Clock/" target="_blank">
+              <img src="https://s25.postimg.org/9rllxy04v/Pomodoro_Clock.png" class="img-fluid prt"/> 
+            </a>
+            <a href="https://codebrave.github.io/jQuery_Calc/" target="_blank">
+              <img src="https://s25.postimg.org/oc2osrv3j/jqeery_calc.png" class="img-fluid prt"/>  
+            </a>
+            <a href="https://codebrave.github.io/Simon_Game/" target="_blank">
+              <img src="https://s25.postimg.org/3uhqh4izz/simon_game.png" class="img-fluid prt"/>  
+            </a>
+          </div> <!--end of col-->
+        </div> <!--end of section group-->
+      </div> <!--end of text-center-->
+      
+      <div class="text-center" id="ct">
+        <h2 class="cnt"> Connect
+        </h2>
+        <a href="https://github.com/codebrave" 
+           target="_blank">
+          <i class="fa fa-github fa-5x" id="gh">
+          </i>
+        </a>
+        <a href="https://www.linkedin.com/in/jonalbert-encina/" target="_blank">
+          <i class="fa fa-linkedin-square fa-5x" id="lk">
+          </i>  
+        </a>
+      </div> <!--end of text-center-->
+
+    </div> <!--end of container-->
+
+
+  </body>
+</html>
